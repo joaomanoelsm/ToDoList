@@ -1,0 +1,24 @@
+#search {
+  position: relative;
+  width: 100%;
+  max-width: 78.4rem;
+
+  #search__input {
+    width: 100%;
+    border: none;
+    background: var(--light-text-color);
+
+    height: 6rem;
+    border-radius: 0.8rem;
+    padding-left: 0.6rem;
+
+    @include text-normal(true);
+  }
+
+  #search__icon {
+    position: absolute;
+    right: 0.1rem;
+    top: 0.2rem;
+    width: 6rem;
+  }
+}

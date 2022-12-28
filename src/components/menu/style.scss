@@ -1,0 +1,15 @@
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--light-text-color);
+  border-radius: 0.5rem;
+
+  #menu__icon {
+    width: 4rem;
+  }
+}

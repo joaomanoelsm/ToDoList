@@ -1,0 +1,19 @@
+#tasks {
+  width: 100%;
+  max-height: 66rem;
+  overflow: auto;
+
+  #tasks__container {
+    width: 100%;
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--light-text-color);
+  border-radius: 0.6rem;
+}
+
+::-webkit-scrollbar {
+  background-color: var(--dark-text-color);
+  width: 2rem;
+}
